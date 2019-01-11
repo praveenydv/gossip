@@ -1,0 +1,8 @@
+{
+  "name": "gossip",
+  "app_id": "c841a313",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

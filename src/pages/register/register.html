@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="navbarcolor">
+    <ion-title>
+      Register
+      </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+ <ion-item>
+    <ion-label floating >Name</ion-label>
+    <ion-input type="text"  required [(ngModel)]="name"></ion-input>
+  </ion-item>
+
+ <ion-item>
+    <ion-label floating >email</ion-label>
+    <ion-input type="text" required [(ngModel)]="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating  >Username</ion-label>
+    <ion-input type="text" required [(ngModel)]="username"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating >Password</ion-label>
+    <ion-input type="password" required [(ngModel)]="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+<button ion-button (click)="registertoapp()" type="submit" >Register</button>
+
+</ion-content>

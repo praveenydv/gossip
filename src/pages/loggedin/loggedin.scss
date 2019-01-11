@@ -1,0 +1,94 @@
+page-loggedin {
+
+ion-header {
+    background-color:#128C7E;
+}
+        
+.name{   
+         font-weight:bold;
+         font-size:120%;
+         padding-top:2px;
+         float:left;
+         height:20px;
+          
+         }
+
+#loggedincontent{
+    background-image:url("https://lh3.googleusercontent.com/jSNOFOL1BQvuHd-uq4rs0NM1KQro2ZGw4HTnXBVcVfsjalk_BpcPl55QrzUe32FbAz6i3Yqdh7TPGJo4ZSzrrVgfFlLZ_OC-N9LJLXmh8UotKwZsUfbmu-JZY3fluwqkhsSi1GAVeQ=w2400");
+    backgroung-attachment:fixed;
+    }     
+
+.username{
+    font-size:150%;
+    padding-left:10px;
+    color:red;
+    float:left;
+
+    }    
+    
+input{
+  height:40px;
+  width:65%;
+ }
+
+   
+ion-header{
+    height:70px;
+    }
+    
+ion-title{
+     display:flex;
+    }
+
+   
+#otheruserbutton{
+    background-color:white;
+    margin-top:-2px;
+    padding-left:20px;
+    width:100%;
+    height:60px;
+    border-radius:10px;
+    border:2px solid black;
+    font-family:Baskerville Old Face;
+    font-size:15px;
+    }
+   
+div.inline1{
+    float:left;
+     }
+   
+div.inline2{
+     float:right;
+     }
+   
+#logoutbutton{
+    display:inline-block;
+     color:white;
+     float:right;
+    background-color:#128C7E;
+    font-size:20px;
+    height:30px;
+    width:80px;
+    border:none;
+    margin-top:30px;
+
+
+ }
+
+ 
+#allusers{
+     display:inline-block;
+     padding-left:30px;
+     padding-top:25px;
+     width:50%;
+     color:white;
+ }
+ 
+}
+    
+   
+
+
+ 
+
+  
